@@ -8,6 +8,6 @@ namespace Algorithm.Logic.Interfaces
 {
     public interface ICommandService
     {
-        List<DroneCommand> GetCommands(string input);
+        List<IDroneCommand> GetCommands(string input);
     }
 }

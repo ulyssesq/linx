@@ -1,4 +1,5 @@
 ﻿using Algorithm.Logic.Domain;
+using Algorithm.Logic.Interfaces;
 using System;
 using System.Linq;
 
@@ -6,7 +7,7 @@ namespace Algorithm.Logic.Factory
 {
     public static class CommandFactory
     {
-        public static BaseCommand GetInstance(string input)
+        public static IDroneCommand GetInstance(string input)
         {
             switch (input.First())
             {

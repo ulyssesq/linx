@@ -7,9 +7,9 @@ namespace Algorithm.Logic.Services
 {
     public class SimplifyService : ISimplifyService
     {
-        private List<DroneCommand> DroneCommands;
+        private List<IDroneCommand> DroneCommands;
 
-        public SimplifyService(List<DroneCommand> droneCommands)
+        public SimplifyService(List<IDroneCommand> droneCommands)
         {
             if (droneCommands == null)
             {
@@ -19,7 +19,7 @@ namespace Algorithm.Logic.Services
             DroneCommands = droneCommands;
         }
 
-        public List<DroneCommand> Simplify()
+        public List<IDroneCommand> Simplify()
         {
             ProcessXCommands();
 
@@ -37,7 +37,7 @@ namespace Algorithm.Logic.Services
 
             foreach (var command in DroneCommands)
             {
-                if (command.IsX()) // se encontrou um comando X, sinaliza que encontrou e adiciona
+                if (command.IsCancel()) // se encontrou um comando X, sinaliza que encontrou e adiciona
                 {
                     if (xFound) // Se já tinha encontrado um comando X anteriormente, então acumula a quantidade de X para depois remover os outros comandos
                     {
@@ -66,7 +66,7 @@ namespace Algorithm.Logic.Services
         private void Filter()
         {
             DroneCommands = DroneCommands
-                .Where(c => !c.Removed && !c.IsX())
+                .Where(c => !c.Removed && !c.IsCancel())
                 .ToList();
         }
     }

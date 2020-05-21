@@ -1,4 +1,5 @@
-﻿using Algorithm.Logic.Interfaces;
+﻿using Algorithm.Logic.Factory;
+using Algorithm.Logic.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +13,15 @@ namespace Algorithm.Logic.Services
     {
         private const string Pattern = @"S\d{0,10}|N\d{0,10}|L\d{0,10}|O\d{0,10}|X";
        
-        public List<DroneCommand> GetCommands(string input)
+        public List<IDroneCommand> GetCommands(string input)
         {
-            List<DroneCommand> droneCommands = new List<DroneCommand>();
+            List<IDroneCommand> droneCommands = new List<IDroneCommand>();
             MatchCollection matches = Regex.Matches(input, Pattern);
 
             foreach (Match match in matches)
             {
                 string rawCommand = match.Value;
-                var droneCommand = new DroneCommand(rawCommand);
+                var droneCommand = CommandFactory.GetInstance(rawCommand);
                 droneCommands.Add(droneCommand);
             }
 

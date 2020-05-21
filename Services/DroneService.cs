@@ -1,4 +1,5 @@
-﻿using Algorithm.Logic.Interfaces;
+﻿using Algorithm.Logic.Domain;
+using Algorithm.Logic.Interfaces;
 
 namespace Algorithm.Logic.Services
 {

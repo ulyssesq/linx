@@ -4,6 +4,6 @@ namespace Algorithm.Logic.Interfaces
 {
     public interface ISimplifyService
     {
-        List<DroneCommand> Simplify();
+        List<IDroneCommand> Simplify();
     }
 }

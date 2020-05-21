@@ -1,15 +1,12 @@
-﻿using Algorithm.Logic.Interfaces;
-using System;
+﻿using Algorithm.Logic.Domain;
+using Algorithm.Logic.Interfaces;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithm.Logic.Services
 {
     public class PositionService : IPositionService
     {
-        public DronePosition GetPosition(List<DroneCommand> droneCommands)
+        public DronePosition GetPosition(List<IDroneCommand> droneCommands)
         {
             var dronePosition = new DronePosition();
 
