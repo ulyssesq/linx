@@ -8,16 +8,15 @@ namespace Algorithm.Logic
         public decimal X { get; set; }
         public decimal Y { get; set; }
 
-        public DronePosition()
-        {
-            X = 0;
-            Y = 0;
-        }
-
         public DronePosition(decimal x, decimal y)
         {
             X = x;
             Y = y;
+        }
+
+        public DronePosition() : this(0, 0) 
+        { 
+
         }
 
         public void Update(DroneCommand command)
@@ -38,15 +37,9 @@ namespace Algorithm.Logic
             }
         }
 
-        private bool IsValid()
-        {
-            return X > MAXPOSITION || Y > MAXPOSITION;
-        }
+        private bool IsValid() => X > MAXPOSITION || Y > MAXPOSITION;
 
-        public override string ToString()
-        {
-            return $"({X}, {Y})";
-        }
+        public override string ToString() => $"({X}, {Y})";
 
         public static DronePosition InvalidPosition
         {

@@ -1,10 +1,9 @@
 ﻿
 namespace Algorithm.Logic
 {
+    using Algorithm.Logic.Factory;
     using Algorithm.Logic.Interfaces;
     using Algorithm.Logic.Services;
-    using System;
-    using System.Text.RegularExpressions;
 
     public class Program
     {
@@ -40,11 +39,7 @@ namespace Algorithm.Logic
         /// <returns>String representando o ponto cartesiano após a execução dos comandos (X, Y)</returns>
         public static string Evaluate(string input)
         {
-            IDroneService droneService = new DroneService(
-                new CommandService(),
-                new ValidationService(),
-                new PositionService());
-
+            IDroneService droneService = ServiceFactory.Instance.GetDroneService();
             var finalPosition = droneService.GetPosition(input);
 
             return finalPosition.ToString();

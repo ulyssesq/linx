@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Logic.Domain
+﻿namespace Algorithm.Logic.Domain
 {
-    public class SouthCommand
+    public class SouthCommand : BaseCommand
     {
+        public SouthCommand(string input) : base(input)
+        {
+            Type = Enum.CommandType.S;
+        }
+
+        public override DroneMove GetMove() => new SouthMove(Quantity);
     }
 }

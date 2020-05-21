@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Logic.Domain
+﻿namespace Algorithm.Logic.Domain
 {
     public class EastCommand : BaseCommand
     {
-        public EastCommand(decimal quantity) : base(quantity)
+        public EastCommand(string input) : base(input)
         {
-
+            Type = Enum.CommandType.L;
         }
+
+        public override DroneMove GetMove() => new EastMove(Quantity);
     }
 }

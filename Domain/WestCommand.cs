@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Logic.Domain
+﻿namespace Algorithm.Logic.Domain
 {
-    public class WestCommand
+    public class WestCommand : BaseCommand
     {
+        public WestCommand(string input) : base(input)
+        {
+            Type = Enum.CommandType.O;
+        }
+
+        public override DroneMove GetMove() => new WestMove(Quantity);
     }
 }

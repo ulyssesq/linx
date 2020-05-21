@@ -44,8 +44,10 @@
     <Compile Include="Domain\EastCommand.cs" />
     <Compile Include="Domain\NorthCommand.cs" />
     <Compile Include="Domain\SouthCommand.cs" />
+    <Compile Include="Domain\CancelCommand.cs" />
     <Compile Include="Domain\WestCommand.cs" />
     <Compile Include="Factory\CommandFactory.cs" />
+    <Compile Include="Factory\ServiceFactory.cs" />
     <Compile Include="Interfaces\IPositionService.cs" />
     <Compile Include="Interfaces\IValidationService.cs" />
     <Compile Include="Services\CommandService.cs" />

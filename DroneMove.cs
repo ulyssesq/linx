@@ -18,9 +18,6 @@ namespace Algorithm.Logic
             Y = y;
         }
 
-        public bool IsValid()
-        {
-            return X > MAXMOVIMENT || Y > MAXMOVIMENT;
-        }
+        public bool IsValid() => X > MAXMOVIMENT || Y > MAXMOVIMENT;
     }
 }
