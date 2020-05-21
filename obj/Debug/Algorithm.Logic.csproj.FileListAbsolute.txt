@@ -5,10 +5,10 @@ D:\Projetos\linx\obj\Debug\Algorithm.Logic.csprojAssemblyReference.cache
 D:\Projetos\linx\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
 D:\Projetos\linx\obj\Debug\Algorithm.Logic.dll
 D:\Projetos\linx\obj\Debug\Algorithm.Logic.pdb
+C:\Users\UlyssesQueiroz\Projects\linx\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
 C:\Users\UlyssesQueiroz\Projects\linx\bin\Debug\Algorithm.Logic.dll.config
 C:\Users\UlyssesQueiroz\Projects\linx\bin\Debug\Algorithm.Logic.dll
 C:\Users\UlyssesQueiroz\Projects\linx\bin\Debug\Algorithm.Logic.pdb
-C:\Users\UlyssesQueiroz\Projects\linx\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
 C:\Users\UlyssesQueiroz\Projects\linx\obj\Debug\Algorithm.Logic.dll
 C:\Users\UlyssesQueiroz\Projects\linx\obj\Debug\Algorithm.Logic.pdb
 C:\Users\UlyssesQueiroz\Projects\linx\obj\Debug\Algorithm.Logic.csprojAssemblyReference.cache

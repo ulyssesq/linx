@@ -9,14 +9,14 @@ D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.Co
 D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CopyComplete
 D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.dll
 D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.pdb
+C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csprojAssemblyReference.cache
+C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.dll
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.pdb
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.pdb
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll.config
-C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csprojAssemblyReference.cache
-C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CopyComplete
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.dll
 C:\Users\UlyssesQueiroz\Projects\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.pdb

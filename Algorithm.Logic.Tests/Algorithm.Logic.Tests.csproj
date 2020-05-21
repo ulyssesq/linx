@@ -51,7 +51,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DroneCommandUnitTest.cs" />
-    <Compile Include="DroneManagerUnitTest.cs" />
     <Compile Include="DroneUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
