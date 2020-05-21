@@ -43,9 +43,15 @@
     <Compile Include="CommandType.cs" />
     <Compile Include="DroneCommand.cs" />
     <Compile Include="DroneManager.cs" />
+    <Compile Include="DroneMove.cs" />
     <Compile Include="DronePosition.cs" />
+    <Compile Include="EastMove.cs" />
+    <Compile Include="NoMove.cs" />
+    <Compile Include="NorthMove.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SouthMove.cs" />
+    <Compile Include="WestMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

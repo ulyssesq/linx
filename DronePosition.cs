@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithm.Logic
 {
     public class DronePosition
     {
+        public const int MAXPOSITION = int.MaxValue; // 2147483647
         public decimal X { get; set; }
         public decimal Y { get; set; }
 
@@ -25,20 +22,25 @@ namespace Algorithm.Logic
 
         public void Update(DroneCommand command)
         {
-            var relativePosition = command.GetPosition();
+            var droneMove = command.GetMove();
 
-            if (relativePosition.X > int.MaxValue || relativePosition.Y > int.MaxValue)
+            if (droneMove.IsValid())
             {
-                throw new Exception("Número maior que o permitido.");
+                throw new Exception("Move overflow.");
             }
 
-            X += relativePosition.X;
-            Y += relativePosition.Y;
+            X += droneMove.X;
+            Y += droneMove.Y;
 
-            if (X > int.MaxValue || Y > int.MaxValue)
+            if (IsValid())
             {
-                throw new Exception("Overflow");
+                throw new Exception("Position Overflow");
             }
+        }
+
+        private bool IsValid()
+        {
+            return X > MAXPOSITION || Y > MAXPOSITION;
         }
 
         public override string ToString()

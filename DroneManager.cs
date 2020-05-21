@@ -13,13 +13,13 @@ namespace Algorithm.Logic
         public List<DroneCommand> DroneCommands { get; private set; }
         public string RawInput { get; }
         public DronePosition Position { get; private set; }
-        public bool IsValid { 
+        public bool IsValid
+        {
             get
             {
                 return Validate();
-            } 
+            }
         }
-
 
         public DroneManager(string input)
         {
@@ -42,7 +42,7 @@ namespace Algorithm.Logic
                 ProcessXCommands();
                 ProcessDronePosition();
             }
-            catch 
+            catch
             {
                 Position = DronePosition.InvalidPosition;
             }
@@ -89,7 +89,7 @@ namespace Algorithm.Logic
                     xFound = false; // Sinaliza que o comando agora não é um X para ele parar de acumular
                     command.Remove();
                     xCommands--; // Subtrai a quantidade de comandos que devem ser removidos
-                }              
+                }
             }
 
             DroneCommands.Reverse(); // Vou a lista a posição normal

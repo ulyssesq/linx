@@ -10,7 +10,6 @@ namespace Algorithm.Logic
 {
     public class DroneCommand
     {
-        private const int MAXQUANTITY = 2147483647;
         public CommandType Type { get; set; }
         public decimal Quantity { get; set; }
         public string RawCommand { get; set; }
@@ -87,29 +86,29 @@ namespace Algorithm.Logic
             return $"{Type.ToString()}{Quantity.ToString()}";
         }
 
-        public DronePosition GetPosition()
+        public DroneMove GetMove()
         {
             if (Type == CommandType.N)
             {
-                return new DronePosition(0, Quantity);
+                return new NorthMove(Quantity);
             }
 
             if (Type == CommandType.S)
             {
-                return new DronePosition(0, -Quantity);
+                return new SouthMove(Quantity);
             }
 
             if (Type == CommandType.L)
             {
-                return new DronePosition(Quantity, 0);
+                return new EastMove(Quantity);
             }
 
             if (Type == CommandType.O)
             {
-                return new DronePosition(-Quantity, 0);
+                return new WestMove(Quantity);
             }
 
-            return new DronePosition();
+            return new NoMove();
         }
     }
 }
