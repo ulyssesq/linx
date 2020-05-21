@@ -1,0 +1,7 @@
+D:\Projetos\linx\bin\Debug\Algorithm.Logic.dll.config
+D:\Projetos\linx\bin\Debug\Algorithm.Logic.dll
+D:\Projetos\linx\bin\Debug\Algorithm.Logic.pdb
+D:\Projetos\linx\obj\Debug\Algorithm.Logic.csprojAssemblyReference.cache
+D:\Projetos\linx\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
+D:\Projetos\linx\obj\Debug\Algorithm.Logic.dll
+D:\Projetos\linx\obj\Debug\Algorithm.Logic.pdb

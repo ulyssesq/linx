@@ -1,0 +1,11 @@
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.dll
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.pdb
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.pdb
+D:\Projetos\linx\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll.config
+D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csprojAssemblyReference.cache
+D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
+D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CopyComplete
+D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.dll
+D:\Projetos\linx\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.pdb
