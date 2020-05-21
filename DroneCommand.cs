@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithm.Logic.Enum;
+using System;
 using System.Linq;
 
 namespace Algorithm.Logic

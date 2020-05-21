@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Algorithm.Logic.Enum;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Algorithm.Logic.Tests

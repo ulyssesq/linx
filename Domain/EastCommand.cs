@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Algorithm.Logic.Domain
+{
+    public class EastCommand : BaseCommand
+    {
+        public EastCommand(decimal quantity) : base(quantity)
+        {
+
+        }
+    }
+}

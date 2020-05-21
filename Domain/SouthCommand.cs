@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm.Logic
+namespace Algorithm.Logic.Domain
 {
-    public enum CommandType
+    public class SouthCommand
     {
-        N,
-        S,
-        L,
-        O,
-        X
     }
 }

@@ -40,10 +40,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\BaseCommand.cs" />
+    <Compile Include="Domain\EastCommand.cs" />
+    <Compile Include="Domain\NorthCommand.cs" />
+    <Compile Include="Domain\SouthCommand.cs" />
+    <Compile Include="Domain\WestCommand.cs" />
+    <Compile Include="Factory\CommandFactory.cs" />
     <Compile Include="Interfaces\IPositionService.cs" />
     <Compile Include="Interfaces\IValidationService.cs" />
     <Compile Include="Services\CommandService.cs" />
-    <Compile Include="CommandType.cs" />
+    <Compile Include="Enum\CommandType.cs" />
     <Compile Include="DroneCommand.cs" />
     <Compile Include="Services\DroneService.cs" />
     <Compile Include="DroneMove.cs" />
@@ -65,9 +71,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Domain\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
