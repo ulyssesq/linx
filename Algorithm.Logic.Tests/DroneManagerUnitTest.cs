@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Algorithm.Logic.Tests
 {
     [TestClass]
-    public class DroneManagerTest
+    public class DroneManagerUnitTest
     {
         [TestMethod]
         public void Input_NNN()
