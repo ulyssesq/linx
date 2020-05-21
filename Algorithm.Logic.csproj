@@ -43,6 +43,7 @@
     <Compile Include="CommandType.cs" />
     <Compile Include="DroneCommand.cs" />
     <Compile Include="DroneManager.cs" />
+    <Compile Include="DronePosition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

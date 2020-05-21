@@ -41,5 +41,19 @@ namespace Algorithm.Logic.Tests
             Assert.AreEqual(CommandType.O, droneCommand.Type);
             Assert.AreEqual(999, droneCommand.Quantity);
         }
+
+        [TestMethod]
+        public void Input_O999_ToString()
+        {
+            var droneCommand = new DroneCommand("O999");
+            Assert.AreEqual("O999", droneCommand.ToString());
+        }
+
+        [TestMethod]
+        public void Input_X_ToString()
+        {
+            var droneCommand = new DroneCommand("X");
+            Assert.AreEqual("X", droneCommand.ToString());
+        }
     }
 }

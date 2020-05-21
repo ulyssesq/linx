@@ -38,36 +38,9 @@ namespace Algorithm.Logic
         /// <returns>String representando o ponto cartesiano após a execução dos comandos (X, Y)</returns>
         public static string Evaluate(string input)
         {
-            // Valida entrada
-            if (!Validate(input))
-            {
-                return "(999, 999)";
-            }
-
-            // Processa os cancelamentos - X
-
-
-
-
-
-            // TODO: Este método é o ponto de entrada para a lógica.
-            return "(X, Y)";
-        }
-
-        /// <summary>
-        /// Valida o formato da entrada
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        public static bool Validate(string input)
-        {
-            if(String.IsNullOrWhiteSpace(input))
-            {
-                return false;
-            }
-
-            string pattern = @"^(((N|S|L|O)\d{0,10})| X)+$";
-            return Regex.IsMatch(input, pattern);
+            var droneManager = new DroneManager(input);
+            var finalPosition = droneManager.Position;
+            return finalPosition.ToString();
         }
     }
 }
